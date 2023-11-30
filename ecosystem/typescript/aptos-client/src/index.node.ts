@@ -12,7 +12,7 @@ export default async function aptosClient<Res>(requestOptions: AptosClientReques
     searchParams: convertBigIntToString(params),
     method,
     url,
-    responseType: "json",
+    responseType: "json", 
     headers,
     hooks: {
       beforeRequest: [

@@ -36,7 +36,7 @@
     "indexer-codegen": "graphql-codegen --config ./src/indexer/codegen.yml",
     "publish-ans-contract": "ts-node ./scripts/publish_ans_contract.ts"
   },
-  "repository": {
+  "repository": { 
     "type": "git",
     "url": "https://github.com/aptos-labs/aptos-core.git"
   },

@@ -1,4 +1,5 @@
-import aptosClient from "@aptos-labs/aptos-client";
+// import aptosClient from "@aptos-labs/aptos-client";
+import aptosClient from "../../../aptos-client";
 import { AptosApiError, AptosRequest, AptosResponse, ClientConfig } from "./types";
 import { VERSION } from "../version";
 
